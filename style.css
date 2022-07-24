@@ -1,0 +1,27 @@
+body {
+	background: #00F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+#button {
+    background: #551b17;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 100px;
+    height: auto;
+    left: 50%;
+    bottom: 50%;
+    position: absolute;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
